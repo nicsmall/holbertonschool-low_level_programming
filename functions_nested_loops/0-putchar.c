@@ -1,7 +1,7 @@
-c
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#include <stdio.h>
 
-int _putchar(char c);
-
-#endif /* HOLBERTON_H */
+int main(void)
+{
+	putchar('\n');
+	return (0);
+}
