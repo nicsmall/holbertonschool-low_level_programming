@@ -1,14 +1,19 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 on success
- */
-#include <stdio.h>
+ *  * main - Entry point
+ *   *
+ *    * Return: Alway 0 (Sucess)
+ *     */
 
 int main(void)
 {
-	putchar('\n');
-	return (0);
+		char *c = "_putchar\n";
+
+			while (*c)
+					{
+								_putchar(*c);
+										c++;
+											}
+				return (0);
 }
+
