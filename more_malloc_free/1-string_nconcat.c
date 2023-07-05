@@ -9,7 +9,7 @@
  * Return: NULL if fail, else pointer to malloc memory
  */
 
-char *string_nconcat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, int n)
 {
 	char *p;
 	int strlen1, i, c;
@@ -19,7 +19,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s2 == NULL)
 		s2 = "";
 
-	strlen1 = (unsigned int)_strlen(s1);
+	strlen1 = (int)_strlen(s1);
 	p = malloc((strlen1 + n + 1) * sizeof(char));
 	if (p == NULL)
 		return (NULL);
